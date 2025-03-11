@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.1.0">
   <diagram name="Page-1" id="5R6l3UPJwr3dUsnH3kuh">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="akM3JkqCUZJ4oTW9noMn-2" target="akM3JkqCUZJ4oTW9noMn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="239.5" as="sourcePoint" />
+            <mxPoint x="350" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-2" value="&lt;div align=&quot;left&quot;&gt;&lt;ol&gt;&lt;li&gt;Login &lt;br&gt;&lt;/li&gt;&lt;li&gt;registeration&lt;/li&gt;&lt;li&gt;Dashboard&lt;/li&gt;&lt;li&gt;student Managment&lt;/li&gt;&lt;li&gt;courses Managment&lt;/li&gt;&lt;li&gt;enrollment&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=default;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry y="190" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-12" value="Frontend" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-14" value="Backend" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=light-dark(#ffff00, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-16" value="Database" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=light-dark(#ffff00, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="740" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="akM3JkqCUZJ4oTW9noMn-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-17" value="&lt;ol&gt;&lt;li&gt;Authentication(login - registration)&lt;/li&gt;&lt;li&gt;Student (CRUD operations)&lt;/li&gt;&lt;li&gt;Courses (CRUD operations)&lt;/li&gt;&lt;li&gt;Enrollment management&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;labelBackgroundColor=default;fontSize=14;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-23" value="&lt;div align=&quot;left&quot;&gt;&lt;ol&gt;&lt;li&gt;Users&lt;/li&gt;&lt;li&gt;Students&lt;/li&gt;&lt;li&gt;Courses&lt;/li&gt;&lt;li&gt;Enrollments&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=3;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="170" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-35" value="&lt;div align=&quot;left&quot;&gt;&lt;ol&gt;&lt;li&gt;Email Service&lt;/li&gt;&lt;li&gt;File storage&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=0;labelBackgroundColor=default;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-37" value="External serveces" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=3;fillColor=default;labelBackgroundColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="-30" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="akM3JkqCUZJ4oTW9noMn-39" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="180" as="sourcePoint" />
+            <mxPoint x="530" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
